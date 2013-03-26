@@ -15,22 +15,27 @@
 		ABC2BCD715200B5200D759DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2BCD615200B5200D759DD /* AppDelegate.m */; };
 		ABC2BCDA15200B5200D759DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2BCD915200B5200D759DD /* ViewController.m */; };
 		ABC2BCDD15200B5200D759DD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC2BCDB15200B5200D759DD /* ViewController.xib */; };
+		ABC2BCE91520136600D759DD /* icon_ubiregiex_checker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC2BCE81520136600D759DD /* icon_ubiregiex_checker@2x.png */; };
+		ABC2BCEB1520137100D759DD /* icon_ubiregiex_checker.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC2BCEA1520137100D759DD /* icon_ubiregiex_checker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB3BE46115F716E600567F51 /* ExtensionChecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ExtensionChecker.entitlements; sourceTree = "<group>"; };
 		ABC2BCC215200B5200D759DD /* ExtensionChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtensionChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC2BCC615200B5200D759DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ABC2BCC815200B5200D759DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABC2BCCA15200B5200D759DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ABC2BCCE15200B5200D759DD /* ExtensionChecker-Info.plist */ = {isa = PBXFileReference; path = "ExtensionChecker-Info.plist"; sourceTree = "<group>"; };
+		ABC2BCCE15200B5200D759DD /* ExtensionChecker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExtensionChecker-Info.plist"; sourceTree = "<group>"; };
 		ABC2BCD015200B5200D759DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABC2BCD215200B5200D759DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ABC2BCD415200B5200D759DD /* ExtensionChecker-Prefix.pch */ = {isa = PBXFileReference; path = "ExtensionChecker-Prefix.pch"; sourceTree = "<group>"; };
-		ABC2BCD515200B5200D759DD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABC2BCD415200B5200D759DD /* ExtensionChecker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExtensionChecker-Prefix.pch"; sourceTree = "<group>"; };
+		ABC2BCD515200B5200D759DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABC2BCD615200B5200D759DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ABC2BCD815200B5200D759DD /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		ABC2BCD815200B5200D759DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ABC2BCD915200B5200D759DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ABC2BCDC15200B5200D759DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		ABC2BCE81520136600D759DD /* icon_ubiregiex_checker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_ubiregiex_checker@2x.png"; sourceTree = "<group>"; };
+		ABC2BCEA1520137100D759DD /* icon_ubiregiex_checker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ubiregiex_checker.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +55,8 @@
 		ABC2BCB715200B5200D759DD = {
 			isa = PBXGroup;
 			children = (
+				ABC2BCEA1520137100D759DD /* icon_ubiregiex_checker.png */,
+				ABC2BCE81520136600D759DD /* icon_ubiregiex_checker@2x.png */,
 				ABC2BCCC15200B5200D759DD /* ExtensionChecker */,
 				ABC2BCC515200B5200D759DD /* Frameworks */,
 				ABC2BCC315200B5200D759DD /* Products */,
@@ -77,6 +84,7 @@
 		ABC2BCCC15200B5200D759DD /* ExtensionChecker */ = {
 			isa = PBXGroup;
 			children = (
+				AB3BE46115F716E600567F51 /* ExtensionChecker.entitlements */,
 				ABC2BCD515200B5200D759DD /* AppDelegate.h */,
 				ABC2BCD615200B5200D759DD /* AppDelegate.m */,
 				ABC2BCD815200B5200D759DD /* ViewController.h */,
@@ -150,6 +158,8 @@
 			files = (
 				ABC2BCD115200B5200D759DD /* InfoPlist.strings in Resources */,
 				ABC2BCDD15200B5200D759DD /* ViewController.xib in Resources */,
+				ABC2BCE91520136600D759DD /* icon_ubiregiex_checker@2x.png in Resources */,
+				ABC2BCEB1520137100D759DD /* icon_ubiregiex_checker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +248,11 @@
 		ABC2BCE115200B5200D759DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ExtensionChecker/ExtensionChecker.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExtensionChecker/ExtensionChecker-Prefix.pch";
 				INFOPLIST_FILE = "ExtensionChecker/ExtensionChecker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -249,10 +261,14 @@
 		ABC2BCE215200B5200D759DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ExtensionChecker/ExtensionChecker.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ubiregi Inc.";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExtensionChecker/ExtensionChecker-Prefix.pch";
 				INFOPLIST_FILE = "ExtensionChecker/ExtensionChecker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "995DA26D-301B-4329-941D-3ECA648C6D12";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -276,6 +292,7 @@
 				ABC2BCE215200B5200D759DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
